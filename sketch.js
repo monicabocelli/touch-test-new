@@ -1,15 +1,12 @@
 var myImage2;
 
-
 function preload(){
     myImage2 = loadImage("images/prova2.jpg");
 }
 
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
-
 
 function draw() {
   background(0);
@@ -25,8 +22,8 @@ function draw() {
  //var distanceX = dist(width/2 - width/7, height/2 - width/7, width/2 + width/7, height/2 + width/7);
  // var distanceY = dist(width/2 - width/7, height/2 - width/7, width/2 + width/7, height/2 + width/7);
   
-   if(mouseX > width/2 - width/7 && mouseX < width/2 + width/7 && mouseY > height/2 - width/7 && mouseY <  height/2 + width/7){   
-    
+   if(mouseX > width/2 - width/7 && mouseX < width/2 + width/7 && mouseY > height/2 - width/7 && mouseY <  height/2 + width/7){    
    image(myImage2,0,0,windowWidth,windowHeight);  
+   }
 }
 
