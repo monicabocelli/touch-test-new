@@ -19,7 +19,7 @@ function draw() {
    image(myImage2,0,0,windowWidth,windowHeight);  
        
       noFill();
-      stroke(250);
+      stroke(250,30,30);
       rectMode(CENTER);
       rect(width/3, height/3, width/7, width/7);
        if(touchX > width/3 - width/7 && touchX < width/3 + width/7 && touchY > height/3 - width/7 && touchY <  height/3 + width/7){ 
