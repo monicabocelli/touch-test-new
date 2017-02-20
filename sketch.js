@@ -27,7 +27,7 @@ function draw() {
            ellipse(width/2, height/2, width/5,width/5);
        }   
     else{
-      image(myImage2,0,0,windowWidth,windowHeight); 
+      background(50); 
    }
   }
 }
