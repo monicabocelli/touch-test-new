@@ -17,10 +17,7 @@ function draw() {
   noStroke();
   fill(250);
   textSize(height/12);
-  text("touch here", width/2, height/2); 
-  
- //var distanceX = dist(width/2 - width/7, height/2 - width/7, width/2 + width/7, height/2 + width/7);
- // var distanceY = dist(width/2 - width/7, height/2 - width/7, width/2 + width/7, height/2 + width/7);
+  text("touch here", width/2, height/2);
   
    if(mouseX > width/2 - width/7 && mouseX < width/2 + width/7 && mouseY > height/2 - width/7 && mouseY <  height/2 + width/7){    
    image(myImage2,0,0,windowWidth,windowHeight);  
