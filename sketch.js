@@ -1,12 +1,15 @@
 var myImage2;
 
+
 function preload(){
     myImage2 = loadImage("images/prova2.jpg");
 }
 
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
+
 
 function draw() {
   background(0);
